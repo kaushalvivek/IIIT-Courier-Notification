@@ -1,6 +1,6 @@
 # IIIT-Courier-Notification
 
-This script is a crontask and has been written with an intention to notify you whenever you get a new parcel, courier, letter etc. at IIIT Hyderabad, and your delivery is logged at Nilgiri. Read up ahead for usage instructions and setup.
+This script is a crontask and has been written with an intention to notify you via email whenever you get a new parcel, courier, letter etc. at IIIT Hyderabad, and your delivery is logged at Nilgiri. Read up ahead for usage instructions and setup.
 
 ## Requirements
 1. [Crontasks](https://awc.com.my/uploadnew/5ffbd639c5e6eccea359cb1453a02bed_Setting%20Up%20Cron%20Job%20Using%20crontab.pdf)
@@ -39,4 +39,6 @@ python3 main.py -q YOUR_NAME -m EMAIL
 1 * * * * python3 $PATH_TO_SCRIPT/main.py -q YOUR_NAME -m EMAIL
 ```
 
-**Do not deploy the script at a greater frequency than once per hour. Respect the network infrastructure and use responsibly.**
+**Do not deploy the script at a greater frequency than once per hour.**
+
+If you face any problems, have any suggestions, create issues here in this repository. Contributions are welcome.
