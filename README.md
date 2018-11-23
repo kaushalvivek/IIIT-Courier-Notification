@@ -4,11 +4,8 @@ This script is a cron job and has been written with an intention to notify you v
 
 ## Requirements
 1. [Crontasks](https://awc.com.my/uploadnew/5ffbd639c5e6eccea359cb1453a02bed_Setting%20Up%20Cron%20Job%20Using%20crontab.pdf)
-2. Python Libraries:-
+2. External Python Libraries:-
     - selenium
-    - smtp
-    - time
-    - argparse (included by default)
   
 ## Setup
 Fill up the below section in ```main.py```, here, you have to provide the sign-in details for any gmail account. This account will be send emails to you.
