@@ -11,7 +11,7 @@ This script is a crontask and has been written with an intention to notify you v
     - argparse (included by default)
   
 ## Setup
-Fill up the below section in ```main.py```, here, you have to provide the sign-in details for any gmail account. This account will be send emails to you.
+Fill up the below section in ```main.py```, here, you have to provide the sign-in details for any gmail account. This account will be used to send emails to you.
 This can be found at line 11 onwards.
 
 ```python
