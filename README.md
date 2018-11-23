@@ -32,7 +32,7 @@ python3 main.py -q YOUR_NAME -m EMAIL
 ### Crontask Deployment:
 
 ```bash
-# For checking ticket availability every hour.
+# For checking every hour.
 
 1 * * * * python3 $PATH_TO_SCRIPT/main.py -q YOUR_NAME -m EMAIL
 ```
