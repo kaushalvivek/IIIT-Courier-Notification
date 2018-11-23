@@ -3,9 +3,10 @@
 This script is a cron job and has been written with an intention to notify you via email whenever you get a new parcel, courier, letter etc. at IIIT Hyderabad, and your delivery is logged at Nilgiri. Read up ahead for usage instructions and setup.
 
 ## Requirements
-1. [Crontasks](https://awc.com.my/uploadnew/5ffbd639c5e6eccea359cb1453a02bed_Setting%20Up%20Cron%20Job%20Using%20crontab.pdf)
-2. External Python Libraries:-
-    - selenium
+1. External Python Libraries:-
+    - [selenium](https://www.seleniumhq.org/download/)
+2. [Crontasks](https://awc.com.my/uploadnew/5ffbd639c5e6eccea359cb1453a02bed_Setting%20Up%20Cron%20Job%20Using%20crontab.pdf)
+3. [Google Chrome](https://www.google.com/chrome/)
   
 ## Setup
 Fill up the below section in ```main.py```, here, you have to provide the sign-in details for any gmail account. This account will be send emails to you.
