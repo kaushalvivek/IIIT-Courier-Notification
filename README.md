@@ -5,7 +5,7 @@ This script is a cron job and has been written with an intention to notify you v
 ## Requirements
 1. External Python Libraries:-
     - [selenium](https://www.seleniumhq.org/download/)
-2. [Crontasks](https://awc.com.my/uploadnew/5ffbd639c5e6eccea359cb1453a02bed_Setting%20Up%20Cron%20Job%20Using%20crontab.pdf)
+2. [Cron](https://awc.com.my/uploadnew/5ffbd639c5e6eccea359cb1453a02bed_Setting%20Up%20Cron%20Job%20Using%20crontab.pdf)
 3. [Google Chrome](https://www.google.com/chrome/)
   
 ## Setup
