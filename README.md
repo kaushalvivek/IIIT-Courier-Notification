@@ -32,9 +32,9 @@ python3 main.py -q YOUR_NAME -m EMAIL
 ### Crontask Deployment:
 
 ```bash
-# For checking every hour.
+# For checking once every day.
 
-1 * * * * python3 $PATH_TO_SCRIPT/main.py -q YOUR_NAME -m EMAIL
+1 0 * * * python3 $PATH_TO_SCRIPT/main.py -q YOUR_NAME -m EMAIL
 ```
 
 **Do not deploy the script at a greater frequency than once per hour.**
