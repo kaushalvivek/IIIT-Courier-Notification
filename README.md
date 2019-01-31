@@ -1,5 +1,9 @@
 # IIIT-Courier-Notification
 
+![version](https://img.shields.io/badge/version-1.2-blue.svg)
+![python](https://img.shields.io/badge/python-3-green.svg)
+
+
 This script is a cron job and has been written with an intention to notify you via email whenever you get a new parcel, courier, letter etc. at IIIT Hyderabad, and your delivery is logged at Nilgiri. Read up ahead for usage instructions and setup.
 
 ## Requirements
